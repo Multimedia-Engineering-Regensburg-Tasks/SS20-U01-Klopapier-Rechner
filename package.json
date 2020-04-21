@@ -1,0 +1,23 @@
+{
+  "name": "mme-app-template",
+  "version": "1.0.0",
+  "description": "A code template for tasks and demos \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Multimedia-Engineering-Regensburg-Tasks/MME-App-Template.git"
+  },
+  "author": "Alexander Bazo <alexanderbazo@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Multimedia-Engineering-Regensburg-Tasks/MME-App-Template/issues"
+  },
+  "homepage": "https://github.com/Multimedia-Engineering-Regensburg-Tasks/MME-App-Template#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
