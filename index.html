@@ -5,12 +5,74 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MME-APP-Template</title>
+    <link rel="stylesheet" href="vendors/fontello/css/fontello.css">
     <link rel="stylesheet" href="resources/css/default.css">
 </head>
 
 <body>
-    <h1>MME-APP-Template</h1>
-    <script type="module" src="resources/js/index.js"></script>
+    <h1>Der Klopapier-Rechner</h1>
+  <div id="info">Mit diesem <b>einfachen Werkzeug</b> kannst du leicht ausrechnen, wie lange dein <b>Klopapiervorrat</b>
+        wahrscheinlich noch reichen wird und wann du beim Einkaufen wieder nach neuen Rollen Ausschauen halten solltest. Gib
+        dazu einfach deinen aktuellen Vorrat ein und beschreibe das <b>Klopapiernutzungsverhalten</b> deines Haushalts ;)</div>
+    <div id="app">
+    	<div class="element storage">
+    		<span class="label"><i class="icon-chart-circled"></i></span>
+    		<h2>Dein aktueller Vorrat</h2>
+    		<span class="item loo-rolls">
+    			<span class="spinner">
+					<i class="icon-minus-circled button minus"></i>
+					<span class="value">5</span>
+    				<i class="icon-plus-circled button plus"></i>
+    			</span>
+    			<span class="description">Rollen Klopapier</span>
+    		</span>
+    		<span class="item layers">
+    			<span class="spinner">
+    				<i class="icon-minus-circled button minus"></i>
+					<span class="value">4</span>
+    				<i class="icon-plus-circled button plus"></i>
+    			</span>
+    			<span class="description">Lagen</span>
+    		</span>
+    	</div>
+    	<div class="element people">
+    		<span class="label"><i class="icon-home-circled"></i></span>
+    			<h2>Dein Haushalt</h2>
+    		<span class="item persons">
+    			<span class="spinner">
+    				<i class="icon-minus-circled button minus"></i>
+					<span class="value">2</span>
+    				<i class="icon-plus-circled button plus"></i>
+    			</span>
+    			<span class="description">Personen im Haushalt</span>
+    		</span>
+    		<span class="item frequency">
+    			<span class="spinner">
+    				<i class="icon-minus-circled button minus"></i>
+					<span class="value">3</span>
+    				<i class="icon-plus-circled button plus"></i>
+    			</span>
+    			<span class="description">Durchschnittliche Klogänge pro Person</span>
+    		</span>
+    		<span class="item usage">
+    			<span class="spinner">
+    				<i class="icon-minus-circled button minus"></i>
+					<span class="value">10</span>
+    				<i class="icon-plus-circled button plus"></i>
+    			</span>
+    			<span class="description">Blätter pro Klogang</span>
+    		</span>
+    	</div>
+    	<div class="element result">
+    		<span class="label"><i class="icon-calendar-circled"></i></span>
+    		<h2>Tipps</h2>
+    		<span class="result-text">
+    		</span>
+    	</div>
+    </div>
+    <script type="application/javascript" src="resources/js/data/LooRollCalculator.js"></script>
+    <script type="application/javascript" src="resources/js/ui/SpinnerView.js"></script>
+    <script type="application/javascript" src="resources/js/index.js"></script>
 </body>
 
 </html>
