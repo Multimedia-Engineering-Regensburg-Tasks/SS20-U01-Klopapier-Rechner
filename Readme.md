@@ -1,14 +1,5 @@
-# Template für Übungsaufgabe
+# Erste Übungsaufgabe SS 2020: Der Klopapier-Rechner
 
-Auf Basis dieser Vorlage werden neue Demos und Aufgaben für den [Multimedia Engineering-Kurs](https://regensburger-forscher.de/mme) des Lehrstuhls für Medieninformatik erstellt. Das *Template* besteht aus einer einfachen HTML- und CSS-Datei sowie einem leeren *Javascript*-Modul das automatisch beim Start der Anwendung geladen wird. Ebenfalls im REpository enthalten sind KOnfigurationsdateien für die Verwendung von [eslint](https://eslint.org/) und Javascript-*[Beautifier](https://beautifier.io/)*.
+Die Anleitung zur Aufgabe (*Handout*) finden Sie [hier](https://regensburger-forscher.de/mme/Aufgaben/SS20-01-Klopapierrechner/). 
 
-## Verwendung (Start der Anwendung)
-
-Aufgrund der Verwendung von Modulen, kann die Anwendung nicht direkt im Browser gestartet werden, sondern muss über einen Webserver ausgeführt werden. Zu diesem Zweck ist das *Template* für die Verwendung des [http-server](https://www.npmjs.com/package/http-server)-Moduls vorkonfiguriert. 
-
-- Installation der Abhängigkeiten über `npm install`
-- Start der Anwendung über `npm start`
-
-## Verwendung (Anpassungen)
-
-- CSS-, HTML- und Javascript-Dateien werden für die jeweilige Aufgabe angepasst
+Dieses Repository besteht aus zwei *Branches*. Bitte fertigen Sie Ihre eigene Lösung im *Master*-Branch an und verwenden Sie den dort befindlichen Quellcode als Ausgangslage. *Pushen* Sie Ihre Lösung bis zum 10. Mai (einschließlich) in dieses Repository. Bewertet wird der letzte *Commit* am Abgabetag. Im *Reference*-Branch findet sich eine Kopie des Starterpakets.
